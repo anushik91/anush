@@ -2,59 +2,171 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>sayt</title>
-	<img src ="Pictures/t.jpg"height="500"width="1500">
-	<link href="sayts.css"rel="stylesheet">
+	<title>Anushik</title>
+	
+	<link href="style.css"rel="stylesheet">
    
 
 </head>
-                              
-<body bgcolor ="#64e986">
-	<div id="navigation">
-        <center>
+
+    <body bgcolor = azure>                          
+<style type="text/css">
+
+#menuBarHolder { width:350px; height:50px; background-color:#000; color:#000; font-family:Arial; font-size:15px; margin-top:25px;}
+#menuBarHolder ul{ list-style-type:none; display:block;}
+.firstchild { border-left:1px solid #dda;}
+#container { margin-top:100px;}
+#menuBar li{  float:left;  padding:16px; height:16px; width:60px; border-right:1px solid #ccc; }
+#menuBar li a{color:#fff; text-decoration:none; letter-spacing:-1px; font-weight:bold;}
+.menuHover { background-color:#999;}
+.menuInfo { cursor:hand; background-color:#000; color:#fff; width:74px; font-size:20px;height:80px; padding:6px; display:none;  position:absolute; margin-left:-15px; margin-top:-15px;
+-moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px;
+   -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px;
+    -khtml-border-radius-bottomright: 5px;   -khtml-border-radius-bottomleft: 5px;
+    border-radius-bottomright: 5px;border-radius-bottomleft: 5px;
+}
+
+h1 {
+	font: 50px normal Georgia, 'Times New Roman', Times, serif;
+	color: #111;
+	margin: 0;
+	text-align: center;
+	padding: 5px 0;
+	
+}
+h1 small{
+	font: 0.2em normal Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing: 1.4em;
+	display: block;
+	color: #ccc;
+}
 
 
+</style>
 
-<a href="#">GLISS KUR</a>
-<ul> <li>փայլ</li>
-<li>շքեղություն</li>
-<li>որակ</li>
-<li>հմայք</li>
+<!--[if IE]>
+<style type="text/css">
+#menuBar li a{width:100px;}
+.menuInfo { margin-left:-65px; width:80px;}
+</style>
+
+<![endif]-->
+
+<script src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+$('#menuBar li').click(function()
+{
+  var url = $(this).find('a').attr('href');
+  document.location.href = url;
+
+});
+
+$('#menuBar li').hover(function()
+{
+   
+   $(this).find('.menuInfo').slideDown();
+},
+function()
+{
+  
+  $(this).find('.menuInfo').slideUp();
+});
+
+});
+
+
+</script>
+
+<center>
+
+<div id="container"> 
+	<h4>GLISS KUR<small>gliss kur</small>ԳԼԻՍ ԿՈՒՐ</h4>
+	
+<div id="menuBarHolder">
+
+<ul id="menuBar">
+
+<li class="firstchild"><a href="anush.html">ԽՆԱՄՔ</a></li>
+<li><a href="mtnel.html">ՄԵՐ ՄԱՍԻՆ</a></li>
+<li><a href ="tn.html">ԲՐԵՆԴ</a></li>
 
 </ul>
-        </center>
 
 </div>
 
-<b><marquee bgcolor=orange width=1500 height=20 direction =left>մազերի խնամքի նոր միջոց</marquee></b><br><br><br> 
-<b><h3><p align="center">Օգտագործման եղանակն ու արդյունքը</h3></b><br><br><br>
+<div class="t">
+<a href= "mtnel.html">	<img src ="t.jpg" style="width: 1061px;
+height: 428px;">
+</a>
+</div>
 
-        
+<div class="text">
+<h3>Շամպուն «Գլիսս Կուռ»յուղ էլիքսիր ,
+Հեղուկ կերատինների ամբողջությամբ
+Չոր և թույլ մազերի համար
+Խորը սնուցում և կանխում է մազերի թուլությունը... 
+Արտադրող` «Շվարցկոփֆ և Հենկել»:
+<br><br><br>
+Shampoo “Gliss Kur”  oil elixir
+With liquid keratin complex
+For dry and damaged hair 
+Intensively feeds and reduces fragility hair...
+Produced by “Schwarzkopf and Henkel”:
+<br><br><br>
+Шампунь «Gliss Kur» Oil Эликсир
+С комплексом жидких кератинов
+Для сухих и ослабленных волос
+Интенсивно питает и уменьшает ломкость волосы...
+Производитель «Шварцкопф и Хенкель»:</h3>
+</div>
 
-<img src="Pictures/sh.jpg" align="left">
+<br><br><br> 
+
+<h4>Գովազդ</h4>   
+<iframe width="560" height="315" src="//www.youtube.com/embed/VbkuPlvD40w" frameborder="0" allowfullscreen></iframe>	 
+<div class="text1">
+<b><h3><p align="center">ԳԼԻՍ ԿՈՒՐ</h3></b><br><br><br>
+<img src="nerk.jpg" align="left">
 
 <br><br>
-<h3>Մազերը լվանալուց հետո անհրաժեշտ է օգտագործել բալզամ կամ կոնդիցիոներ: Անհարժե՞շտ է արդյոք հիշեցնել, որ այդ միջոցները ևս պետք է խստորեն համապատասխանեն մազերի տեսակին: Կարծիք կա, որ յուղոտ մազերը դրանց կարիքը չունեն: Սակայն այդպես չէ: Ցանկացած կոնդիցիոներ խոնավացնող հատկություն ունի, իսկ յուղոտ մազերը, ինչպես և նորմալ կամ չոր մազերը, խոնավացման կարիք ունեն: Մազերի խնամքի հիանալի լրացուցիչ միջոց են նաև դիմակները: Դրանց մի մասը պետք է 10 րոպե պահել, մյուսները` կես ժամ: Ցանկացած դեպքում դիմակի վրա ծախսված ժամանակը հարյուրապատիկ կփոխհատուցվի:</h3>
+
+<br><br><br><h3>
+Շամպուն «Գլիս  Կուր» ,պարունակում է  
+Մարակեշի յուղ և կոկոս, 
+Նորմալ և թուլացած մազերի համար,
+Սնուցում է մազերը հաղորդելով ճկունություն և փայլ։
+Արտադրող` «Շվարցկոփֆ և Հենկել»
 <br><br><br>
-<img src="Pictures/imm.jpeg" align="left">
-<h3>Կարծես թե հասարակ գործողություն է մազերը լվանալը, բայց երբ սկսվում են խնդիրները, օրինակ` մազաթափությունը, կոտրտվելը, ծայրերի ճյուղավորումը կամ խամրած, անառողջ տեսքը, վերոհիշյալ հարցերը արդիական են դառնում: Այստեղ արդեն ցանկացած մանրամասնություն կարևոր է դառնում և մեծ նշանակություն ստանում: Փորձենք պարզել` ինչն ինչոց է, միաժամանակ նաև որևէ օգտակար խորհուրդ տալ:</h3><br><br><br><br><br><br>
-<img src="Pictures/n.jpeg" align="left">
+Shampoo “Gliss Kur” Repair
+With oil Marrakesh and coconut
+For normal and weak hair
+Nourishes hair, adds elasticity and shine։
+Produced by “Schwarzkopf and Henkel”
+<br><br><br>
+Шампунь «Gliss Kur» Восстановление
+Масло Марракеш и кокос
+Для нормальных  и ослабленных волос
+Питает и придает волосам эластичность и блеск։
+Производитель «Шварцкопф и Хенкель»
+</h3>
 
-<h3>Երեւի բոլոր աղջիկներն էլ սիրում են, երբ իենց մազերը փայլուն եւ շքեղ տեսք ունեն: Իսկ նմանատիպ մազեր ունենալու համար անհաժեշտ է միշտ խնամել դրանք: Քչերը գիտեն, որ մազերը գեղեցկացնող միջոցները կարող են նաեւ վնասել դրանց: Ներկայացնում ենք Gliss Kur-ը, որը կօգնի ձեզ զերծ պահել մազերը վնասներից:</h3><br><br><br><br><br>
+</div>
+<br>
+<br>
+<br>
 
+<br><br><br><br><br>
 
-
-
-
-	<center>
-<h3>գովազդ</h3>
-<iframe width="0560" height="315" src="http://www.youtube.com/embed/-o96VfPxX0I" frameborder="0" allowfullscreen></iframe>
-	</center>
-<br><br><br><br><br>	 
-	<center>
-<a href="mtnel.html" class="hxum" >հաջորդ էջ...կարդալ ավելին</a>
-	</center>
+<br>
+<br>
+<br>
+<div class="text3">
 <marquee> ՈՒշադրություն։Օգտագործեք Gliss Kur եվ ձեր մազերը կունենան հիանալի տեսք</marquee>
+
+</div>
 </body>
 </html>
-

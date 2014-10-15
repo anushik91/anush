@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+	<meta charset="utf-8">
+	
+<body bgcolor="FFCCFF"  align="center">
+	
+	<border="0px" fieldset width="10px" align="center">
+	<form name = "form1" style="width:10" align="center">
+  <table style="width:10" align="center">
+    <tr>
+		<td align="left">Hunvar: </td>
+      <td align="left"><input type="number" name="hu" ></td>
+    </tr>
+    <tr>    
+	<td align="left">Petrvar: </td>
+      <td align="left"><input type="number" name="pe" ></td>
+	  </tr>
+	  <tr>
+	  <td align="left">Mart:  </td>
+   	 <td align="left"><input type="number" name="ma" ></td>
+    </tr>
+	<tr>
+	  <td align="left">April:  </td>
+   	 <td align="left"><input type="number" name="ap" ></td>
+    </tr>
+	<tr>
+	  <td align="left">Mayis:  </td>
+   	 <td align="left"><input type="number" name="may" ></td>
+    </tr>
+    <tr>
+	  <td align="left">Hunis:  </td>
+   	 <td align="left"><input type="number" name="hun" ></td>
+    </tr>
+    <tr>
+	  <td align="left">Hulis:  </td>
+   	 <td align="left"><input type="number" name="hul" ></td>
+    </tr>
+    <tr>
+	  <td align="left">Ogostos:  </td>
+   	 <td align="left"><input type="number" name="og" ></td>
+    </tr>
+    <tr>
+	  <td align="left">September:  </td>
+   	 <td align="left"><input type="number" name="se" ></td>
+    </tr>
+	<tr>
+	  <td align="left">Hoktember:  </td>
+   	 <td align="left"><input type="number" name="ho" ></td>
+    </tr>
+	<tr>
+	  <td align="left">Noyember:  </td>
+   	 <td align="left"><input type="number" name="no" ></td>
+    </tr>
+    <tr>
+	  <td align="left">Dektember:  </td>
+   	 <td align="left"><input type="number" name="de" ></td>
+    </tr>
+    
+		</table>
+            <button type="button" onclick="k(form1)">Hashvel</button>
+            <input type ="reset" name ="reset" value ="Maqrel">
+            <table>
+                <tr>
+                        <td align="left">Rezult:  </td>
+                       <td align="left"><input type="number" name="res" ></td>
+                </tr>
+            </table>
+</form>
+
+
+</border>
+<script>
+    function k(obj){
+        var a1 = 1*obj.hu.value;
+        var a2 = 1*obj.pe.value;
+        var a3 = 1*obj.ma.value;
+        var a4 = 1*obj.ap.value;
+        var a5 = 1*obj.may.value;
+        var a6 = 1*obj.hun.value;
+        var a7 = 1*obj.hul.value;
+        var a8 = 1*obj.og.value;
+        var a9 = 1*obj.se.value;
+        var a10 = 1*obj.ho.value;
+        var a11 = 1*obj.no.value;
+        var a12 = 1*obj.de.value;
+        
+        var s = (a1+a2+a3+a4+a5+a6+a7+a8+a9+a10+a11+a12)/12;
+        obj.res.value = s;
+    }
+    
+    function m(){
+        obj.hu.value = null;
+        obj.pe.value = "";
+        obj.ma.value = "";
+        obj.ap.value = "";
+        obj.may.value = "";
+        obj.hun.value = "";
+        obj.hul.value = "";
+        obj.og.value = "";
+        obj.se.value = "";
+        obj.ho.value = "";
+        obj.no.value = "";
+        obj.de.value = "";
+    
+    }
+    
+</script>
+
+
+</body>
+</html>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+ <img src ="Pictures/t.jpg"height="500"width="1500">
+
+<title>Example of HTML Menu</title>
+
+
+
+
+</head>
+<body bgcolor="fff380">	
+
+	<marquee bgcolor="ff00aa" width=1500 height=20 direction =right>SCHWARZKOBF GLISS</marquee><br><br><br><br>
+<center> 
+<marquee behavior="alternate" BGCOLOR="#FF00AA">
+<marquee width="200">
+<img src="Pictures/k.jpeg">
+<img src="Pictures/sh.jpeg">
+<img src="Pictures/t.jpeg">
+<img src="Pictures/shh.jpeg">
+</marquee>
+</marquee>
+</center>
+<br><br><br>
+
+</div>
+<hr>
+<h5>Ձեզ կարող է հետաքրքրել նաև՝</h5>
+<img src ="Pictures/o.jpeg"> 
+<img src ="Pictures/im.jpeg">
+<img src ="Pictures/j.jpeg">
+<img src ="Pictures/gl.jpeg">
+
+ 
+           <hr>
+<h3>տեսանյութ Gliss Kur</h3>
+<iframe width="420" height="315" src="http://www.youtube.com/embed/IKtyXyew4As" frameborder="0" allowfullscreen></iframe>
+<h5><i>Կենսաբանական ծագման կարիտեի յուղով հարուստ  այս շամպունը նախատեսված է չոր, վնասված եվ անհնազանդ մազերի սնուցման համար: Ձեր մազերը վերականգնում են բնական փափկությունը և նրբությունը: Արդյունքն ուժեղացնելու համար օգտագործեք միայն gliss kur:Օճառահեղուկի ոչ մեծ քանակություն քսել խոնավ մազերին: Մերսող շարժումներով տարածել մազերի վրա, լվանալ ջրով: Անհրաժեշտության դեպքում կրկնել:</i></h5>
+           <form>
+<table>
+<h3>Թողեք ձեր մեկնաբանությունը</h3>
+<textarea rows="5" cols="60"></textarea>
+<button type="button">ավելացնել</button> 
+<br><br><br>
+<h3>գրանցվել կայքում</h3>
+ԱՆուն: <input type="text" name="firstname"><br>
+Ազգանուն: <input type="text" name="lastname"><br>
+<button type="button">գրանցվել</button> 
+<br><br>
+<a href="index.html" class="hxum" >գլխավոր	</a>
+</table></form>
+    
+ 
+	</body>
+</html>
+
+
+
+

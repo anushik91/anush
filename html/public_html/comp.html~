@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>saytik</title>
+	 <link rel="stylesheet" href="saytik.css">
+
+</head>
+<body>
+        <h1>NOTBOOK</h1>
+        <img src="Pictures/comp.jpg"width="100" height="100"><br<br><br>
+	<marquee bgcolor=blue width=1200 height=20 direction =left align="right">about my notbook</marquee><br><br>
+<h3><p align="center">HELLO! I am Anushik and welcome to Notbook Notbuk!
+
+
+What started out as a favourite past-time for me turned out to be my bread and butter now and I wouldn’t have expected it to come this far 5 years ago.
+
+I always had the penchant for stationeries particularly notebooks and would always wonder how nice it would be to have them the way I wanted and this sparked my curiosity about the ins and outs of notebooks. That was the beginning of everything!
+
+Notbook-Notbuk started out in September 2010 while I was working my day job as a graphic designer. It started out as an online handmade business and slowly made way to bazaars and stores. As sales started picking up, I realized that I had a difficult time coping hence my decision to focus on the business. What drives me on in this endeavour is the overwhelming support I get from all the lovely people around me – family & friends and not forgeting, all the loyal customers. I am especially thrilled and overjoyed (still am!) when I see people using a product of “Notbook-Notbuk”. It truly makes all the hard work and effort worthwhile!</h3>
+<br><br>
+<h3><p align ="center">my lovely songs</p></h3>
+<iframe width="560" height="315" src="http://www.youtube.com/embed/GlDaeJWscv0" frameborder="0" allowfullscreen></iframe>
+<div>vertical menu</div>
+        <ul class="element">
+                <li class="guyn"><p align="center">open</li>
+                <li class="guyn1"><p align="center">closed</li>
+                <li class="guyn1"><p align="center">history</li>
+                <li class="guyn1"><p align="center">fin</li><br>
+        </ul>
+         <div>vertical menu</div>
+        <ul class="element1">
+                <li class="guyn2"><p align="center">start</li>
+                <li class="guyn2"><p align="center">about</li>
+                <li class="guyn2"><p align="center">history</li>
+                <li class="guyn2"><p align="center">finish</li><br>
+        </ul>
+<p class="aa"></p><marquee bgcolor="#000080" scrollamount="2" direction="up" loop="true" width="35%"> <center> <font color="#ffffff"><strong> THIS IS A COOL WAY<br> TO MAKE YOUR TEXT<br> SCROLL UPWARDS<br> <br> IT IS EASY AND FAST LOADING </strong></font></center></marquee>
+	 <ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="contact.asp">Contact</a></li>
+  <li><a href="about.asp">About</a></li>
+</ul> 
+<ul>
+{
+list-style-type:none;
+margin:1;
+padding:1;
+padding-top:7px;
+padding-bottom:5px;
+}
+li
+{
+display:inline;
+}
+a:link,a:visited
+{
+font-weight:bold;
+color:#CC3DD;
+background-color:#90EE90;
+text-align:center;
+padding:6px;
+text-decoration:italic;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#FF1493;
+}
+</style>
+</head>
+<body>
+<ul>
+<li><a href="#News">News</a></li>
+<li><a href="#Technology">Technology</a></li>
+<li><a href="#Sports">Sports</a></li>
+<li><a href="#Country">Country</a></li>
+<li><a href="#Video">Video</a></li>
+<li><a href="#Download">Download</a></li>
+</ul>
+
+
+	</body>
+</html>

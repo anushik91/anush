@@ -1,83 +1,188 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	 <img src ="Pictures/t.jpg"height="500"width="1500">
-
-<style>
-
-ul {
-    float: left;
-    width: 200%;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
-
-a {
-    float: left;
-    width: 6em;
-    text-decoration: none;
-    color: white;
-    background-color: purple;
-    padding: 0.2em 0.6em;
-    border-right: 1px solid white;
-}
-
-a:hover {
-    background-color: fuchsia;
-}
-
-li {
-    display: inline;
-}
-</style>
+<meta charset ="utf-8">
+<title>A***GLISS KUR***A</title>
 </head>
-<body bgcolor="#6cc417">
-<img src="t.jpg">
+<body>
+<style type="text/css">
 
-<ul>
-<li><a href="#">charm</a></li>
-<li><a href="#">shine</a></li>
-<li><a href="#">quality</a></li>
+#menuBarHolder { width: 900px; height:60px; background-color:#ff2400; color:#e41b17; font-family:Arial; font-size:15px; margin-top:20px;}
+#menuBarHolder ul{ list-style-type:none; display:block;}
+.firstchild { border-left:1px solid #fff;}
+#container { margin-top:100px;}
+#menuBar li{  float:left;  padding:30px; height:100px; width:100px; border-right:1px solid #fff; }
+#menuBar li a{color:#000000; text-decoration:none; letter-spacing:-1px; font-weight:bold;}
+.menuHover { background-color:#ff0000;}
+.menuInfo { cursor:hand; background-color:#ff0000; color:#000000; width:130px; font-size:11px;height:100px; padding:3px; display:none;  position:absolute; margin-left:-15px; margin-top:-15px;
+-moz-border-radius-bottomright: 5px; -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px;
+    -khtml-border-radius-bottomright: 5px;   -khtml-border-radius-bottomleft: 5px;
+    border-radius-bottomright: 5px;border-radius-bottomleft: 5px;
+}
 
-<li><a href="#">about our</a></li>
+h1 {
+	font: 50px normal Georgia, 'Times New Roman', Times, serif;
+	color: #111;
+	margin: 0;
+	text-align: center;
+	padding: 5px 0;
+	
+}
+h1 small{
+	font: 0.2em normal Verdana, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	letter-spacing: 1.4em;
+	display: block;
+	color: #ff0000;
+}
+
+
+</style>
+
+<!--[if IE]>
+<style type="text/css">
+#menuBar li a{width:50px;}
+.menuInfo { margin-left:-65px; width:80px;}
+</style>
+
+<![endif]-->
+
+<script src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+
+$('#menuBar li').click(function()
+{
+  var url = $(this).find('a').attr('href');
+  document.location.href = url;
+
+});
+
+$('#menuBar li').hover(function()
+{
+   
+   $(this).find('.menuInfo').slideDown();
+},
+function()
+{
+  
+  $(this).find('.menuInfo').slideUp();
+
+});
+
+});
+
+
+</script>
+
+<center>
+
+<div id="container"> 
+	<h1>GLISS KUR<br />ԳԼԻՍ ԿՈՒՌ<small>ГЛИС КУР</small></h1>
+	
+<div id="menuBarHolder">
+
+<ul id="menuBar">
+
+<li class="firstchild"><a href="javascript:#">Գլխավոր</a><div class="menuInfo">Գլիս Կուր</div></li>
+<li><a href="javascript:#">Ծառայություններ</a><div class="menuInfo">Առաջարկում ենք Գլիս Կուրի նոր բրենդները</div></li>
+<li><a href="javascript:#">Հաճախորդ</a><div class="menuInfo">Այցելեք մեր կայք </div></li>
+<li><a href="javascript:#">Կապ</a><div class="menuInfo">Գրանցվել կայքում</div></li>
+<li><a href="javascript:#">Մասին</a><div class="menuInfo">Հիանալի և շքեղ փայլ է հաղորդում ձեր մազերին</div></li>
+
+
 </ul>
 
-<h3><p align ="right">
-
-Welcome to the world of GLISS KUR
-
-GLISS KUR as THE hair repair expert offers highly efficient, innovative hair care products to suit your demanding hair needs. Thanks to the unique Liquid Hair-Repair Technology with liquid hair components, the intelligent formula precisely repairs hair damages and refills hair cracks. For repaired hair full of resilience and healthy-looking shine.</p></h3>
-
-<iframe width="420" height="315" src="http://www.youtube.com/embed/BEdydXL8wC0" frameborder="0" allowfullscreen></iframe>
-<blink>SHAMPOO</blink>
-<iframe width="560" height="315" src="http://www.youtube.com/embed/qmtzn15fSto" frameborder="0" allowfullscreen></iframe>
-<marquee><img src="Pictures/shh.jpeg"></marquee>
+</div>
+</div>
 
 
-<h2><p align="center">Gliss Kur-ը առաջարկում է մասնագիտացված միջոցների լայն տեսականի (խնամքից մինչև ոճավորում), որոնք ստեղծվել են` հաշվի առնելով տարբեր տեսակի մազերի անհատական հատկությունները։  Շնորհիվ  յուրահատուկ սկանավորող և վերականգնող համալիրի` "Խելացի” բանաձևը գուշակում է մազերի կառուցվածքը և վերականգնում վնասված հատվածները` առանց ծանրաբեռնելու առողջ մազերը:
-Gliss Kur-ն առաջարկում է մազերի խնդիրների արդյունավետ լուծումներ։</p></h2><br><br><br><br>
+</center>
+
 <br><br><br>
-<img src="Pictures/maz.jpg" align="right"><h3><p align ="left">օգտագործիր GLISS KUR</p><h3> 
- 
 
-<h1><p color="#ff0000"align ="center">GLISS KUR</P></h1>
-<h2><p align="right">Ապրանքի նկարագրությունը` Ծավալ չունեցող և բարակ մազերի համար շամպուն:Ծովային կոլագենով հարուստ «Gliss Kur Экстремальный Объем» շարքը վերականգնում է բարակ մազերը և պաշտպանում է դրանք արտաքին գործոնների վնասակար ազդեցությունից։ 
-Թարգմանեց Անուշ Վասիլյանը</p></h2>
-
-
+<div style="text-align:center">
+<img src="t.jpg">
+</div><br><br><br>
 <div>
-<marquee bgcolor="#ffffff" direction="down" width="30%" height="100">
+<img src="uxott.jpg" align ="left"><br><br><br>
+</div>
+Ապրանքի նկարագրությունը` Ծավալ չունեցող և բարակ մազերի համար շամպուն:<br><br>
+Ծովային կոլագենով հարուստ «Gliss Kur Экстремальный Объем» շարքը վերականգնում է բարակ մազերը և<br><br> պաշտպանում է դրանք արտաքին գործոնների վնասակար ազդեցությունից։</h4><br><br><br>
+</div>
+<br><br>
+<div>
+<img src="ann.jpg" align ="left"><br><br><br>
+<h4>
+1150 դր
+բ-մ «Գլիսս Կուր» բարակ և ծավալից զուրկ մազերի համար 200մլ
+<br><br>cond “Gliss Kur” for fine and flat hair 200ml<br><br>
+б-м «Gliss Kur» для лишенных объема и тонких волос 200мл
+
+</h4><br><br><br>
+</div>
+<div>
+<img src="open.jpg" align ="left"><br><br><br>
+<h4>
+1150 դր
+բ-մ «Գլիսս Կուր» բնական և ներկած մուգ մազերի համար 200մլ
+<br><br>cond “Gliss Kur” for natural and color-treated dark hair 200ml<br><br>
+б-м «Gliss Kur» для натуральных и окрашенных темных волос 200мл
+
+</h4><br><br><br>
+</div>
+<div>
+<img src="shampon.jpg" align ="left"><br><br><br>
+<h4>
+
+1150 դր
+բ-մ «Գլիսս Կուր» չենթարկվող մազերի համար,Ասիա 200մլ
+<br><br>cond “Gliss Kur” for stubborn hair 200ml<br><br>
+б-м «Gliss Kur» для непослушных волос 200мл
+
+
+</h4>
+<br><br>
+<div style="text-align:center;">
+  
+ <h4>ՄԻՋՈՑՆԵՐ</h4>
+<a href="http://translate.google.am/translate?hl=hy&sl=en&u=http://www.ehow.co.uk/how_7658200_apply-gliss-kur-hair-repair.html&prev=/search%3Fq%3Dhair%2Bextension%2Bfor%2Bgliss%2Bkur">Մազերը երկարացնելու համար</a><br><br>
+<a href="https://www.google.am/search?q=gliss+kur&oq=gliss+kur+&aqs=chrome..69i57j0l5.5336j0j7&sourceid=chrome&es_sm=0&ie=UTF-8#q=gliss+kur+%D5%B4%D5%A1%D5%A6%D5%A5%D6%80%D5%AB%D5%B6+%D5%AE%D5%A1%D5%BE%D5%A1%D5%AC+%D5%B0%D5%A1%D5%B2%D5%B8%D6%80%D5%A4%D5%A5%D5%AC%D5%B8%D6%82+%D5%B0%D5%A1%D5%B4%D5%A1%D6%80">Մազերին ծավալ հաղորդելու համար</a><br><br>
+<a href="http://translate.google.am/translate?hl=hy&sl=en&u=http://www.ehow.co.uk/how_7658200_apply-gliss-kur-hair-repair.html&prev=/search%3Fq%3Dhair%2Bextension%2Bfor%2Bgliss%2Bkur">Մազերը թարմացնելու համար</a>
+
+
+<h4>ԽՆԱՄՔ</h4>
+<a href ="http://www.cfcom.am/am/product/category/Hair%20care.html">Թեփի դեմ</a><br><br>
+<a href ="http://hy.badgood.info/reviews/content/gliss_kur_%D5%B7%D5%A1%D5%B4%D5%BA%D5%B8%D6%82%D5%B6_%D5%B4%D5%A1%D5%A6%D5%A5%D6%80%D5%AB_%D5%B0%D5%A1%D5%B4%D5%A1%D6%80">Յուղոտ մազերի համար</a><br><br>
+<a href ="http://www.arpi.am/index.php/hy/%D5%A2%D5%A1%D5%AC%D5%A6%D5%A1%D5%B4%D5%B6%D5%A5%D6%80?view=single&id=4148">Չոր մազերի համար</a>
+
+</div>
+<br><br><br><br><br><br>
+<h4>Թողնել մեկնաբանություն</h4>
+<textarea rows="5" cols="60"></textarea>
+<button type="button">Ավելացնել</button>
+<br><br><br>
+ <h3>Գրանցվել կայքում</h3>
+Անուն: <input type="text" name="firstname"><br>
+Ազգանուն: <input type="text" name="lastname"><br>
+<button type="button">Գրանցվել</button> 
+<br><br>
+<div>
+<marquee bgcolor="#ff0000" direction="down" width="30%" height="100">
 <center>
-<font size="+1"><strong>տեղեկությունների համար զանգահարեք՝(+374)9854758?</strong></font><p>
+<font size="+1"><strong>տեղեկությունների համար զանգահարեք՝(+374) 547 580</strong></font><p>
 
 </center>
 </marquee>
-
 </div>
-</body><br><br><br>
-<p align ="right"></p>
-<a href="tn.html" class="hxum" align ="right">անցնել հաջորդ էջ</a>
+</div>
+<div style ="text-align:center;">
 
+
+<a href="index.html"><img src  ="click.jpg"></a>
+</div>
+</body>
 </html>
